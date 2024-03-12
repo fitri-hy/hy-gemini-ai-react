@@ -16,6 +16,21 @@ npm i react-markdown
 import GeminiAI,{ ButtonGpt, CloseButtonGpt, FormInputGpt, MessageGpt } from "hytech-component/GeminiAI";
 import Markdown from 'react-markdown';
 ```
+## Setup Config
+```sh
+  const apiKey = 'Your apiKey'; // Use your GeminiAI Api here
+  const command = 'You have to pretend to be a AI for HyTech Group';
+  const aiModel = 'gemini-pro';
+  const {
+    showBoxAI,
+    toggleBox,
+    loading,
+    response,
+    message,
+    setMessage,
+    handleSubmit,
+  } = GeminiAI(apiKey, command, aiModel);
+```
 
 ## Implementation Component
 ```sh
@@ -52,7 +67,7 @@ import GeminiAI,{ ButtonGpt, CloseButtonGpt, FormInputGpt, MessageGpt } from "hy
 import Markdown from 'react-markdown';
 
 function App() {
-  const apiKey = 'AIzaSyBTqUk4b500NQE2BhLvtXmzyHozSyK_XD4';
+  const apiKey = 'Your apiKey'; // Use your GeminiAI Api here
   const command = 'You have to pretend to be a AI for HyTech Group';
   const aiModel = 'gemini-pro';
   const {
@@ -99,7 +114,9 @@ function App() {
 }
 
 export default App;
-
 ```
+
+## Get ApiKey
+Go to : <a href="https://aistudio.google.com/app/">HERE</a>
 
 Follow Me: <a href="https://hy-tech.my.id/docs">FOLLOW</a>
