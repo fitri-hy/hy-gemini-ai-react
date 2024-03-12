@@ -3,7 +3,7 @@ import GeminiAI,{ ButtonGpt, CloseButtonGpt, FormInputGpt, MessageGpt } from "hy
 import Markdown from 'react-markdown';
 
 function App() {
-  const apiKey = 'AIzaSyBTqUk4b500NQE2BhLvtXmzyHozSyK_XD4';
+  const apiKey = 'Your apiKey'; // Use your GeminiAI Api here
   const command = 'You have to pretend to be a AI for HyTech Group';
   const aiModel = 'gemini-pro';
   const {
