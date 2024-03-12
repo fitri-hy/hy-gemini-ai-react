@@ -117,6 +117,6 @@ export default App;
 ```
 
 ## Get ApiKey
-Go to : <a href="https://aistudio.google.com/app/">HERE</a>
+Go to : <a href="https://makersuite.google.com/">HERE</a>
 
 <p>Official Site: <a href="https://hy-tech.my.id/docs">HyTech Group</a></p>
