@@ -50,7 +50,7 @@ import Markdown from 'react-markdown';
           <MessageGpt>
             Loading ...
           </MessageGpt> : <MessageGpt>
-            <Markdown>{response}</Markdown>
+            <Markdown>{String(response)}</Markdown>
           </MessageGpt>
         }
       </div>
@@ -103,7 +103,7 @@ function App() {
             <MessageGpt>
               Loading ...
             </MessageGpt> : <MessageGpt>
-              <Markdown>{response}</Markdown>
+              <Markdown>{String(response)}</Markdown>
             </MessageGpt>
             }
           </div>
